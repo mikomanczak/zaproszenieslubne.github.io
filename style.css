@@ -79,11 +79,12 @@ body {
     #gifts-icons {
         width: 25%;
         margin: auto;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
     }
 
     #gifts-icons img {
         position: relative;
-        margin-top: 10vh;
         width: 100%;
         opacity: 0.9;
     }
@@ -129,11 +130,12 @@ body {
     #gifts-icons {
         width: 90%;
         margin: auto;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
     }
 
     #gifts-icons img {
         position: relative;
-        margin-top: 5vh;
         width: 100%;
         opacity: 0.9;
     }
