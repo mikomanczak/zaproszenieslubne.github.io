@@ -171,29 +171,27 @@ body {
         position: relative;
     }
 
-    .slider::before {
-        background-image: url("img/sliderLeft.png");
-        background-size: 20px 20px;
+    .slider-arrow {
         display: inline-block;
+        background-size: 20px;
         position: absolute;
-        left: 1vw;
         top: 3rem;
-        width: 20px; 
+        width: 20px;
         height: 20px;
-        content:"";
-        opacity: 0.8;
     }
-      
-    .slider::after {
+
+    .slider-arrow-left {
+        background-image: url("img/sliderLeft.png");
+        left: 0;
+    }
+
+    .slider-arrow-right {
         background-image: url("img/sliderRight.png");
-        background-size: 20px 20px;
+        right: 0;   
+    }
+
+    .slider {
         display: inline-block;
-        width: 20px; 
-        height: 20px;
-        position: absolute;
-        right: 1vw;
-        top: 3rem;
-        content:"";
-        opacity: 0.8;
+        width: calc(100% - 40px);
     }
 }

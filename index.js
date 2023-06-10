@@ -7,5 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             easing: 'ease-out',
             loop: true
         });
+        document.querySelector(".slider-arrow-left")?.addEventListener('click', () => mySiema.prev());
+        document.querySelector(".slider-arrow-right")?.addEventListener('click', () => mySiema.next());
     }
   });
