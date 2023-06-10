@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (isMobile) {
         const mySiema = new Siema({
             selector: ".slider",
-            duration: 800,
+            duration: 400,
             easing: 'ease-out',
             loop: true
         });
