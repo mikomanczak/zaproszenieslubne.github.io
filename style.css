@@ -46,6 +46,10 @@ body {
     background-image: url("img/invitation_card_party.jpg");
 }
 
+#invitation-card-party, #invitation-card-party * {
+    color: whitesmoke;
+}
+
 @media only screen and (min-width: 600px) {
 
     a {
@@ -93,7 +97,7 @@ body {
         position: relative;
         font-size: 20px;
         height: 100vh;
-        width: 40vw;
+        width: 90vw;
         background-color: rgb(46, 46, 46);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
@@ -101,6 +105,7 @@ body {
         border-radius: 5px;
         color: whitesmoke;
         padding: 5vw;
+        margin: auto;
     }
 }
 
