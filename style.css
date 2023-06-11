@@ -121,12 +121,21 @@ body {
         border: #f5f5f5 1px solid;
         border-radius: 5px;
         padding: 10px 30px;
-        text-decoration: none;
+        text-decoration: none   ;
         opacity: 0.7;
+        line-height: 2rem;
     }
 
     #invitation-card-party-text .sliter-item:hover {
         opacity: 1;
+    }
+
+    .phone-link {
+        display: inline-block;
+    }
+
+    .phone-link-right {
+        float: right;
     }
 }
 
