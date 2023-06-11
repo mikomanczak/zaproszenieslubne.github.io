@@ -15,8 +15,17 @@
     color: #272727;
 }
 
+a {
+    text-decoration-thickness: 1px;
+}
+
 body {
     background-color: whitesmoke;
+}
+
+.dark-text-link {
+    color: #272727;
+    text-decoration-color: #272727 ;
 }
 
 .dark-text-link:hover {
@@ -26,6 +35,7 @@ body {
 
 .light-text-link {
     color: whitesmoke;
+    text-decoration-color: whitesmoke;
 }
 
 .light-text-link:hover {
@@ -52,25 +62,20 @@ body {
 
 @media only screen and (min-width: 600px) {
 
-    a {
-        text-decoration: none;
-    }
-
     #invitation-card-wedding {
         height: 100vh;
     }
 
     #invitation-card-wedding-text {
-        font-size: 20px;
+        font-size: 1vw;
         position: relative;
         width: 40vw;
         margin: auto;
-        top: 35vh;
+        top: 32vh;
     }
 
     #invitation-card-signature {
         text-align: right;
-        margin-top: 40px;
     }
 
     #wedding-info {
@@ -147,6 +152,10 @@ body {
         border-radius: 5px;
     }
 
+    #invitation-card-guest-name {
+        margin-top: 4vh;
+    }
+
     #gifts-icons {
         width: 90%;
         margin: auto;
@@ -175,7 +184,7 @@ body {
         display: inline-block;
         background-size: 20px;
         position: absolute;
-        top: 3rem;
+        top: 2rem;
         width: 20px;
         height: 20px;
     }
