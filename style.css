@@ -62,6 +62,10 @@ body {
 
 @media only screen and (min-width: 600px) {
 
+    a {
+        text-underline-offset: 5px;
+    }
+
     #invitation-card-wedding {
         height: 100vh;
     }
@@ -124,6 +128,7 @@ body {
         text-decoration: none   ;
         opacity: 0.7;
         line-height: 2rem;
+        transition: 0.5s;
     }
 
     #invitation-card-party-text .sliter-item:hover {
@@ -148,7 +153,7 @@ body {
 
     a {
         text-decoration-color: #272727;
-        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
     }
 
     .invitation-card {
@@ -192,11 +197,11 @@ body {
 
     .slider-arrow {
         display: inline-block;
-        background-size: 20px;
+        background-size: 15px;
         position: absolute;
         top: 2rem;
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
 
     .slider-arrow-left {
