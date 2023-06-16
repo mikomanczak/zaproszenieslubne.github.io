@@ -43,6 +43,12 @@ body {
     font-weight: bold;
 }
 
+#invitation-card-headline {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.3vw;
+}
+
 .invitation-card {
     background-size: cover;
     width: 100%;
@@ -174,6 +180,12 @@ body {
 
     #invitation-card-guest-name {
         margin-top: 4vh;
+    }
+
+    #invitation-card-headline {
+        text-align: center;
+        margin: 20px;
+        font-size: 15px;
     }
 
     #gifts-icons {
